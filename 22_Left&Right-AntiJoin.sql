@@ -18,6 +18,7 @@ select * from table1 right join table2
 on table1.c1 = table2.c1
 where table1.c1 is null
 
+
 --Left anti join returns records present only in the left table by filtering left outer join results where right table columns are null.
 --Right anti join returns records present only in the right table by filtering right outer join results where left table columns are null.
 --Null values do not match with nulls in join conditions, so unmatched nulls from one table appear with nulls for the other table's columns in the output.
