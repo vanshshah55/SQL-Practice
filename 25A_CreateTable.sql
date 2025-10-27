@@ -12,7 +12,7 @@ values
 create table append2 
 (C1 int,C2 nvarchar(255),C3 int)
 
-insert into append1 
+insert into append2 
 values 
 (11,'AA',17),
 (2,'B',8),
