@@ -49,15 +49,17 @@ select * from employees_us where lastname like 'br%' or lastname like 'bl%'
 
 --14) Find Employees whose First Name starts with a vowel.
 select * from employees_us where firstname like '[aeiou]%'
---same
---15) Find Employees whose First Name does not start with a consonant.
+
+--15) Find Employees whose First Name does not starts with a vowel.
+select * from employees_us where firstname not like '[aeiou]%'
+
+--16) Find Employees whose First Name does not start with a consonant.
 select * from employees_us where firstname not like '[^aeiou]%'
 
---16) Find Employees whose First Name starts with a consonant.
+--17) Find Employees whose First Name starts with a consonant.
 select * from employees_us where firstname like '[^aeiou]%'
 
---17) Find Employees whose First Name does not starts with a vowel.
-select * from employees_us where firstname not like '[aeiou]%'
+
 
 
 /*
