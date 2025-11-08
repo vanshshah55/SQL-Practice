@@ -1,10 +1,10 @@
+
 -- Create the table with potential duplicates
 CREATE TABLE EmployeeRecords (
     EmployeeID INT,
     EmployeeName VARCHAR(100),
     ManagerID INT
 );
-
 
 -- Insert data into the table, including duplicates
 INSERT INTO EmployeeRecords (EmployeeID, EmployeeName, ManagerID) VALUES
