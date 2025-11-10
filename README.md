@@ -4,7 +4,7 @@ This README helps you quickly navigate through all SQL practice files in your re
 
 ---
 
-## ✅ **1. Core SQL Basics (1A–15)**
+## ✅ **1. Core SQL Basics (1A–12)**
 
 ### **Table Creation & Basic Queries**
 
