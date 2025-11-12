@@ -1,7 +1,5 @@
 
-
-
-
+-- initial solution (working)
 select
 s.student_id, s.student_name, sb.subject_name,
 COALESCE(exam_counts.attended_exams, 0) AS attended_exams
@@ -22,6 +20,14 @@ AND sb.subject_name = exam_counts.subject_name
 ORDER BY
 s.student_id,
 sb.subject_name
+
+--MY refined solution
+SELECT s.student_id, s.student_name, sub.subject_name, COUNT(e.student_id) AS attended_exams
+FROM Students s
+CROSS JOIN Subjects sub
+LEFT JOIN Examinations e ON s.student_id = e.student_id AND sub.subject_name = e.subject_name
+GROUP BY s.student_id, s.student_name, sub.subject_name
+ORDER BY s.student_id, sub.subject_name;
 
 
 
