@@ -16,6 +16,7 @@ and p1.id > p2.id;
 
 
 /*
+QUESTION : -
 196. Delete Duplicate Emails
 Easy
 Topics
