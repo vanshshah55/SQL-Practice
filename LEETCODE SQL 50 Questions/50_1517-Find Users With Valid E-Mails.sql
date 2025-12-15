@@ -7,6 +7,7 @@ and mail COLLATE SQL_Latin1_General_CP1_CS_AS LIKE '%@leetcode.com'
 
 /*
 QUESTION : -
+
 1517. Find Users With Valid E-Mails
 Easy
 Topics
