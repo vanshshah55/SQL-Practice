@@ -53,5 +53,4 @@ So the result is customer_number 3.
  
 
 Follow up: What if more than one customer has the largest number of orders, can you find all the customer_number in this case?
-
 */
